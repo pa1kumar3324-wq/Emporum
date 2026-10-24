@@ -199,8 +199,8 @@ header{height:68px}
 <div class="panel reveal">
 <h2>Let’s build something useful.</h2>
 <div class="mail">
-<a class="btn solid" href="mailto:pa1kumar3324@gmail.com?subject=Project%20enquiry%20%7C%20Emporum">Email us <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 15 15 5M7 5h8v8"/></svg></a>
-<button class="copy" id="copy" type="button">pa1kumar3324@gmail.com · Copy</button>
+<a class="btn solid" href="mailto:contact@emporum.in?subject=Project%20enquiry%20%7C%20Emporum">Email us <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 15 15 5M7 5h8v8"/></svg></a>
+<button class="copy" id="copy" type="button">contact@emporum.in · Copy</button>
 </div>
 </div>
 </div></section>
@@ -225,7 +225,8 @@ stage.addEventListener('pointerleave',()=>card.style.transform='');
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
 document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
 const copy=document.getElementById('copy'),label=copy.textContent;
-copy.addEventListener('click',async()=>{try{await navigator.clipboard.writeText('pa1kumar3324@gmail.com');copy.textContent='Copied ✓'}catch{copy.textContent='pa1kumar3324@gmail.com'}setTimeout(()=>copy.textContent=label,2200)});
+copy.addEventListener('click',async()=>{try{await navigator.clipboard.writeText('contact@emporum.in');copy.textContent='Copied ✓'}catch{copy.textContent='contact@emporum.in'}setTimeout(()=>copy.textContent=label,2200)});
 </script>
 </body>
 </html>
+
